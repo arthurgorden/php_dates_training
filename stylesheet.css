@@ -1,0 +1,31 @@
+@font-face{
+  font-family: "digital-7";
+  src: url("./assets/digital-7.ttf") format("truetype");
+}
+
+@font-face{
+  font-family: "digital-7-italic";
+  src: url("./assets/digital-7-italic.ttf") format("truetype");
+}
+
+.digital-7 {
+  font-family: "digital-7";
+}
+
+.digital-7-italic {
+  font-family: "digital-7-italic";
+}
+
+.bg-grey {
+    --bs-bg-opacity: 1;
+    background-color: #333333;
+}
+
+.bg-black {
+    --bs-bg-opacity: 1;
+    background-color: black;
+}
+
+.border-time {
+  border: 0.3rem ridge #9c9c9c;
+}
